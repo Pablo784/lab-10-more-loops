@@ -1,0 +1,22 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+    function countDown(start) {
+      console.log(start);
+      let nextNumber = start - 1;
+      if (nextNumber > 0) {
+        setTimeout(countDown, 1000, nextNumber); // <--- recurse!
+      } else { // <--- the base case
+        setTimeout(function(){console.log("HAPPY NEW YEAR!");}, 1000, nextNumber);
+      }
+    }
+    var count = parseInt(prompt("How many seconds before the ball drops?"));
+    countDown(count); // <--- this is our function call
+    </script>
+  </body>
+</html>

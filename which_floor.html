@@ -1,0 +1,23 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      var maximum_stories = 100;
+      var userstring = prompt("On what floor is you office in? ");
+      var usernum = parseInt(userstring);
+
+      while (usernum < 100) {
+
+        console.log(usernum + " is the number of this floor but it's not the right one.  ")
+        userstring = prompt(usernum + " is the number of this floor but it's not the right one.  ")
+        usernum = parseInt(userstring);
+
+      }
+        console.log(usernum + " Congratulations! You work on this floor. ");
+    </script>
+  </body>
+</html>
