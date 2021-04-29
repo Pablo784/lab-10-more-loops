@@ -26,4 +26,4 @@ hanoi(4, "A", "B", "C")
 
 # the reason why I wasn't getting the output that I wanted is because the code on lines 10 & 17 weren't aligned with each other.
 
-# ALINGMENT IS VERY IMPORTANT WHEN CODING IN PYTHON!!! 
+# ALINGMENT IS VERY IMPORTANT WHEN CODING IN PYTHON!!!
